@@ -15,7 +15,7 @@ let successTraceroute = function(err, hops) {
     }
 
     for (let i = 1; i < hops.length; ++i) {
-      if (hops[i-1] != false || hops[i] != false) {
+      if (hops[i-1] != false && hops[i] != false) {
         let ip_src = Object.keys(hops[i-1])[0];
         let ip_dest = Object.keys(hops[i])[0];
         let latency = hops[i][ip_dest][0];
