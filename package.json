@@ -1,14 +1,23 @@
 {
-  "name": "speed",
+  "name": "ethereum_hackital",
   "version": "1.0.0",
-  "description": "hackathon",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zachgitt/ethereum_hackital.git"
+  },
   "author": "",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zachgitt/ethereum_hackital/issues"
+  },
+  "homepage": "https://github.com/zachgitt/ethereum_hackital#readme",
   "dependencies": {
+    "traceroute": "^1.0.0",
     "web3": "github:ethereum/web3.js"
   }
 }
