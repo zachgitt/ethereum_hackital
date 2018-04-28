@@ -19,7 +19,7 @@ let successTraceroute = function(err, hops) {
         let ip_src = Object.keys(hops[i-1])[0];
         let ip_dest = Object.keys(hops[i])[0];
         let latency = hops[i][ip_dest][0];
-        console.log(ip_src, ip_dest, latency);
+        console.log(ip_src, ip_dest, latency, new Date().getTime());
       }
     }
   }
